@@ -11,41 +11,85 @@ body {
 }
 
 .first {
+  background-image: url(boat.jpg);
+  background-color: #cccccc;
+  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  font-size: 7vh;
+}
+
+.first h1 {
+  color: rgb(248, 248, 85);
+  font-size: 20vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.first h2 {
+  color: white;
+  font-size: 3vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.first i {
+  color: rgb(202, 202, 87);
 }
 
 .first div {
   height: 70%;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
 }
 
 .second {
+  background-image: url(bg-2.jpg);
+  background-size: cover;
   height: 70vh;
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
 }
 
 .second header {
-  border: 1px solid black;
-  width: 100%;
+  color: rgb(248, 248, 85);
+  width: 50%;
+  font-size: 6vh;
   margin-left: 10%;
   margin-top: 10vh;
 }
 
 .second article {
-  border: 1px solid black;
+  color: white;
+  font-size: 3vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   width: 100%;
   margin-top: 10vh;
   margin-right: 10%;
+  margin-left: 20%;
+}
+
+.second article div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 90%;
+  color: black;
+  background-color: rgb(225, 233, 109);
+  width: 30%;
+  height: 10%;
+  margin-top: 10%;
+}
+
+.second article div:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
 }
 
 .third {
@@ -65,6 +109,36 @@ body {
   border: 1px solid black;
 }
 
+.tours-page header {
+  font-size: 4vh;
+  width: 60%;
+  text-align: center;
+  color: rgb(248, 248, 85);
+}
+
+.tours-page main {
+  width: 100rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-image {
+  height: 55vh;
+  width: 50vh;
+  background-image: url(img1.jpg);
+  background-size: cover;
+}
+
+.first-image p {
+}
+
+.second-image {
+}
+
+.third-image {
+}
+
 .fourth {
   border: 1px solid black;
   height: 100vh;
@@ -77,6 +151,8 @@ body {
   width: 50%;
   margin-left: 10%;
   margin-top: 10vh;
+  color: rgb(248, 248, 85);
+  font-size: 6vh;
 }
 
 .fourth article {
@@ -84,6 +160,8 @@ body {
   width: 50%;
   margin-right: 10%;
   margin-top: 10vh;
+  color: whitesmoke;
+  font-size: 3vh;
 }
 
 .fifth {
@@ -96,9 +174,21 @@ body {
   margin-right: 15%;
 }
 
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .circle {
   border: 1px solid black;
   text-align: center;
+  height: 25vh;
+  width: 25vh;
+  background-color: black;
+  border-radius: 50%;
 }
 
 .sixth {
@@ -111,11 +201,25 @@ body {
 
 .sixth div {
   height: 70%;
+  width: 40%;
+  text-align: center;
   align-items: center;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 4vh;
+}
+
+.sixth div p {
+  font-size: 3vh;
+}
+
+.sixth i {
+  font-size: 13vh;
+  color: rgb(202, 202, 87);
 }
 
 .seventh {
@@ -138,11 +242,21 @@ body {
   border: 1px solid black;
   width: 100%;
   text-align: left;
+  margin-bottom: 10%;
+  margin-left: 5%;
+}
+
+.eighth header h1 {
+  font-size: 10vh;
+  color: rgb(248, 248, 85);
 }
 
 .eighth article {
   border: 1px solid black;
+  height: 50%;
   width: 100%;
-  align-items: center;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 10%;
 }
